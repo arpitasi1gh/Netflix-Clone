@@ -8,7 +8,7 @@
   background-size: cover;
 }
 #nflogo {
-  width: 18vh;
+  width: 19.5vh;
   color: red;
   margin: 3vh 0 0 18vh;
 }
@@ -80,6 +80,7 @@ h1 {
   border-radius: 0.2rem;
   margin-top: 1rem;
   background: transparent;
+  color: white;
 }
 #getstarted {
   background-color: #e50914;
@@ -171,7 +172,7 @@ li {
   margin-bottom: 2.25vh;
 }
 .sf4 {
-  text-align: center;
+  text-align: left;
   color: rgba(255, 255, 255, 0.7);
 }
 .sf5 {
@@ -187,6 +188,20 @@ li {
   display: flex;
   flex-direction: row;
   gap: 1rem;
+}
+.card:hover {
+  transform: scale(1.04);
+  transition: all 0.3s ease-in-out;
+}
+#email:focus {
+  background: transparent;
+  outline: #ffffff solid 0.15rem;
+}
+#sellang:focus {
+  outline: 0;
+}
+#language:active {
+  outline: #ffffff solid 0.15rem;;
 }
 #cards , #moves { 
   margin: 2vh 0 0 18vh;
@@ -228,6 +243,7 @@ li {
 }
 #moves {
   display: flex;
+  flex-direction: row;
   gap: 1rem;
   margin-right: 18vh;
 }
@@ -242,4 +258,8 @@ li {
 }
 #signin:active, #getstarted:active {
   background-color: #bc0c14;
+}
+.move, #moves {
+  width: 78.25rem;
+  height: auto;
 }
