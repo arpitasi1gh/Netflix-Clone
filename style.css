@@ -28,6 +28,10 @@
   display: inline-block;
   border: 0.1rem solid #ffffff47;
 }
+#sin {
+  text-decoration: none;
+  color: white;
+}
 #sellang {
   color: #ffffff;
   background: none; /* url('assets/dicon.svg') no-repeat right; */
